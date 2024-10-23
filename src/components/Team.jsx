@@ -2,17 +2,11 @@ import React from "react";
 import AnimationOnScroll from "react-animate-on-scroll";
 import "../styles/team.css";
 import Aditya from "../public/pics/aditya.webp";
-import Samriddh from "../public/pics/samriddh.png";
 import Medhansh from "../public/pics/medhansh.png";
-import Inesh from "../public/pics/inesh.png";
-
 import Abdullah from "../public/pics/abdullah.webp";
-
 import Ayaan from "../public/pics/ayaan.webp";
-
 import Arquam from "../public/pics/arqm.webp";
 import Rayyan from "../public/pics/rayyan.webp";
-import vanshsharama from "../public/pics/vanshsharma.png";
 import vansh from "../public/pics/vansh.png";
 
 function Team() {
@@ -51,15 +45,6 @@ function Team() {
           github="https://instagram.com/vedrecide"
           twitter="https://github.com/vedrecide"
         ></TeamMember>
-
-        <TeamMember
-          name="Samrridh Khanna"
-          avatar={Samriddh}
-          title1="President Robotics"
-          title2="Beta Tester"
-          github="https://instagram.com/samrridh.k "
-          twitter="https://www.linkedin.com/in/samrridh-khanna "
-        ></TeamMember>
         <TeamMember
           name="Medhansh Kapoor"
           avatar={Medhansh}
@@ -84,8 +69,6 @@ function Team() {
           github="https://instagram.com/_vxnsh25"
           twitter="https://open.spotify.com/user/l8mtiwbl6fv3jgwkjx0q9qj2t?si=ddw2_JsISgGojeNHJ5Ybjg&nd=1&dlsi=1b3ebe1c34ad4913"
         ></TeamMember>
-    
-
         <TeamMember
           name="Abdullah Viqar"
           avatar={Abdullah}
@@ -93,13 +76,6 @@ function Team() {
           title2="Beta Tester"
           github="https://www.instagram.com/abdullah.vqr/"
           twitter="https://unsplash.com/@abdullahvqr"
-        ></TeamMember>
-        <TeamMember
-          name="Vansh Sharma"
-          avatar={vanshsharama}
-          title1="Volunteer"
-          title2="Beta Tester"
-          github="https://www.instagram.com/vansh_sharma1144"
         ></TeamMember>
         <TeamMember
           name="Ranjana Ma'am"
